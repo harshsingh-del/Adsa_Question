@@ -3,7 +3,7 @@ class Solution {
         int lo=0, hi=arr.length-1;
         int n=arr.length;
         int [] ar=new int[2];
-        while(hi<n){
+        // while(hi<n){
             for(int i=0;i<arr.length;i++){
                 int s=arr[lo]+arr[hi];
                 if(target>s){
@@ -16,7 +16,7 @@ class Solution {
                     return ar;
                 }
             }
-        }
+        // }
             return ar;
     }
 }
